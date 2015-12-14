@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+For explanation of XML tags please see AS33PresParams_PresSample1.
+This sample shows slide presentation in idle mode. All drinks have one or two images.
+
+RecipeIndex values to be used (for program only the number before column is important)
+0:Idle              (No drink)
+100:Coffee
+200:Espresso
+300:Ristretto
+400:Cappuccino
+500:CoffeeLatte
+600:Espressochoc
+601:Moccaccino
+700:Chocolate
+800:HotMilk
+1100:CreamyChoc
+1200:HotWater
+-->
+<!-- Name of this file used to show to user on Presentation screen -->
+<!-- Name of folder where images & videos for this presentation are stored -->
+<!-- We recommend you use the same name as file but without prefix -->
+
+<ASD33_PresParams>
+<PRESFILENAME>Custom</PRESFILENAME>
+<PRESIMAGEPATH>Media</PRESIMAGEPATH>
+<RecipeImages>
+<RecipeIndex Value="0:Idle">
+  <Images>
+    <ID Value ='1'>
+      <Name>nyan.mov</Name>
+      <Secs>-1</Secs>
+      <ContentType>Video</ContentType>
+      <VideoBgImage>bg.jpg</VideoBgImage>
+      <VideoViewPort>1</VideoViewPort>
+    </ID>
+  </Images>
+</RecipeIndex>
+<RecipeIndex Value="100:Coffee">
+  <Images>
+    <ID Value ='1'>
+      <Name>pieter.mov</Name>
+      <Secs>-1</Secs>
+      <ContentType>Video</ContentType>
+      <VideoBgImage>bg.jpg</VideoBgImage>
+      <VideoViewPort>1</VideoViewPort>
+    </ID>
+  </Images>
+</RecipeIndex>
+<RecipeIndex Value="200:Espresso">
+  <Images>
+    <ID Value ='1'>
+      <Name>nyan.mov</Name>
+      <Secs>-1</Secs>
+      <ContentType>Video</ContentType>
+      <VideoBgImage>bg.jpg</VideoBgImage>
+      <VideoViewPort>1</VideoViewPort>
+    </ID>
+  </Images>
+</RecipeIndex>
+<RecipeIndex Value="400:Cappuccino">
+  <Images>
+    <ID Value ='1'>
+      <Name>nyan.mov</Name>
+      <Secs>-1</Secs>
+      <ContentType>Video</ContentType>
+      <VideoBgImage>bg.jpg</VideoBgImage>
+      <VideoViewPort>1</VideoViewPort>
+    </ID>
+  </Images>
+</RecipeIndex>
+<RecipeIndex Value="407:Latte Macchiato">
+  <Images>
+    <ID Value ='1'>
+      <Name>nyan.mov</Name>
+      <Secs>-1</Secs>
+      <ContentType>Video</ContentType>
+      <VideoBgImage>bg.jpg</VideoBgImage>
+      <VideoViewPort>1</VideoViewPort>
+    </ID>
+  </Images>
+</RecipeIndex>
+<RecipeIndex Value="500:Coffee Latte">
+  <Images>
+    <ID Value ='1'>
+      <Name>nyan.mov</Name>
+      <Secs>-1</Secs>
+      <ContentType>Video</ContentType>
+      <VideoBgImage>bg.jpg</VideoBgImage>
+      <VideoViewPort>1</VideoViewPort>
+    </ID>
+  </Images>
+</RecipeIndex>
+<RecipeIndex Value="600:Espressochoc">
+  <Images>
+    <ID Value ='1'>
+      <Name>nyan.mov</Name>
+      <Secs>-1</Secs>
+      <ContentType>Video</ContentType>
+      <VideoBgImage>bg.jpg</VideoBgImage>
+      <VideoViewPort>1</VideoViewPort>
+    </ID>
+  </Images>
+</RecipeIndex>
+<RecipeIndex Value="1100:Creamy Choc">
+  <Images>
+    <ID Value ='1'>
+      <Name>nyan.mov</Name>
+      <Secs>-1</Secs>
+      <ContentType>Video</ContentType>
+      <VideoBgImage>bg.jpg</VideoBgImage>
+      <VideoViewPort>1</VideoViewPort>
+    </ID>
+  </Images>
+</RecipeIndex>
+<RecipeIndex Value="1200:Hot Water">
+  <Images>
+    <ID Value ='1'>
+      <Name>nyan.mov</Name>
+      <Secs>-1</Secs>
+      <ContentType>Video</ContentType>
+      <VideoBgImage>bg.jpg</VideoBgImage>
+      <VideoViewPort>1</VideoViewPort>
+    </ID>
+  </Images>
+</RecipeIndex>
+</RecipeImages>
+</ASD33_PresParams>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+General:
+Each Week has
+- 7 days of the week, Monday to Sunday
+
+In this file, we have defined follwoing:
+- for Monday, Thursday & Friday 3 presentations are defined.
+- Tuesday, Wednesday, Sat & Sun: One presentation running the whole day. This is done by declaring
+  only one time slot with FromTime and ToTime set to "-1"
+
+Special:
+1. The "activated" presentation will be used wherever TimeSlot is not defined. So it is a
+   good idea to define  one TimeSlot for each day with "-1" and the presentation you
+   would like to show.
+2. make sure that the FromDate is le3. To avoid typing errors work with copy/paste and do not change the tags (text within < and > signs)
+ss than ToDate and FromTime is less than ToTime.
+-->
+<ASD33_PresSchedule>
+  <!-- Name of this file. Shown to user on schedule screen. Date info yyyymmdd useful for the user. -->
+  <SCHEDFILENAME>Custom Schedule</SCHEDFILENAME>
+  <Week>
+    <Monday>
+      <TimeSlot Value="1">
+        <FromTime>-1</FromTime>
+        <ToTime>-1</ToTime>
+        <Presentation>Custom</Presentation>
+      </TimeSlot>
+    </Monday>
+    <Tuesday>
+      <TimeSlot Value="1">
+        <FromTime>-1</FromTime>
+        <ToTime>-1</ToTime>
+        <Presentation>Custom</Presentation>
+      </TimeSlot>
+    </Tuesday>
+    <Wednesday>
+      <TimeSlot Value="1">
+        <FromTime>-1</FromTime>
+        <ToTime>-1</ToTime>
+        <Presentation>Custom</Presentation>
+      </TimeSlot>
+    </Wednesday>
+    <Thursday>
+      <TimeSlot Value="1">
+        <FromTime>-1</FromTime>
+        <ToTime>-1</ToTime>
+        <Presentation>Custom</Presentation>
+      </TimeSlot>
+    </Thursday>
+    <Friday>
+      <TimeSlot Value="1">
+        <FromTime>-1</FromTime>
+        <ToTime>-1</ToTime>
+        <Presentation>Custom</Presentation>
+      </TimeSlot>
+    </Friday>
+    <Saturday>
+      <TimeSlot Value="1">
+        <FromTime>-1</FromTime>
+        <ToTime>-1</ToTime>
+        <Presentation>Custom</Presentation>
+      </TimeSlot>
+    </Saturday>
+    <Sunday>
+      <TimeSlot Value="1">
+        <FromTime>-1</FromTime>
+        <ToTime>-1</ToTime>
+        <Presentation>Custom</Presentation>
+      </TimeSlot>
+    </Sunday>
+  </Week>
+</ASD33_PresSchedule>
