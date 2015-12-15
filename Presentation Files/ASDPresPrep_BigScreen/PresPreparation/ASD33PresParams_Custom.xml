@@ -116,7 +116,7 @@ RecipeIndex values to be used (for program only the number before column is impo
 <RecipeIndex Value="1200:Hot Water">
   <Images>
     <ID Value ='1'>
-      <Name>nyan.mov</Name>
+      <Name>gandalf.mov</Name>
       <Secs>-1</Secs>
       <ContentType>Video</ContentType>
       <VideoBgImage>bg.jpg</VideoBgImage>
